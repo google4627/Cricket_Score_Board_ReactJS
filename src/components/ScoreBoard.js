@@ -1049,7 +1049,7 @@ const ScoreBoard = () => {
             {inningNo === 1 ? 'End Inning' : 'Score Board'}
           </button>
         </div>
-      </div>
+      </div>  
       <div id='badge' className='badge badge-flex'>
         {inningNo === 2 ? remainingRunsContent : overCount === maxOver || wicketCount === 10 ? firstInningCompletedContent : welcomeContent}
       </div>
